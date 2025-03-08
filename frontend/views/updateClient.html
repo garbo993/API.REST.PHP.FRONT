@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Client</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Update Client</h1>
+        <form id="updateClientForm">
+            <label for="clientId">Client ID:</label>
+            <input type="number" id="clientId" name="id" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" >
+
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" >
+
+            <button type="submit">Update Client</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="../scripts/updateClient.js"></script>
+</body>
+</html>
